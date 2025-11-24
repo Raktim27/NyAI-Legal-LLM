@@ -42,3 +42,11 @@ ENV/
 *.csv
 *.json
 *.xml
+
+# Ignore raw and processed data folders completely
+data/raw/
+data/processed/
+
+# Optional: ignore any generated SQLite DB, cache, or embeddings
+*.sqlite3
+vector_db/

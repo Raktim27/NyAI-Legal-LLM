@@ -1,0 +1,53 @@
+# -----------------------------
+# Core Data Handling
+# -----------------------------
+pandas==2.2.3
+tqdm==4.66.4
+
+# -----------------------------
+# LangChain Ecosystem
+# -----------------------------
+langchain==0.3.3
+langchain-community==0.3.2
+langchain-core==0.3.13
+
+# -----------------------------
+# Vector Database
+# -----------------------------
+chromadb==0.5.11
+faiss-cpu==1.8.0.post1
+
+# -----------------------------
+# Embeddings & Transformers
+# -----------------------------
+sentence-transformers==3.0.1
+transformers==4.45.1
+torch==2.3.1
+accelerate==0.33.0
+
+# -----------------------------
+# Hugging Face Access
+# -----------------------------
+huggingface_hub==0.25.2
+
+# -----------------------------
+# API / App Layer (Optional, for later)
+# -----------------------------
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.8.2
+
+# -----------------------------
+# Utilities
+# -----------------------------
+python-dotenv==1.0.1
+requests==2.32.3
+
+# -----------------------------
+# (Optional) For Fine-tuning
+# -----------------------------
+peft==0.11.1
+trl==0.10.1
+bitsandbytes==0.43.2
+
+streamlit
